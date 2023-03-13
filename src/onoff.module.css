@@ -1,0 +1,21 @@
+.wrapper {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 100px auto;
+}
+.button {
+  width: 50px;
+  height: 30px;
+}
+.on {
+ background-color: green;
+}
+.off {
+  background-color: red;
+}
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
