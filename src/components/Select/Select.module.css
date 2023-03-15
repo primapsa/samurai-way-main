@@ -1,0 +1,41 @@
+.selectWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+
+}
+.selctBody {
+    height: 30px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 15px;
+    border: 1px solid sandybrown;
+    border-radius: 3px;
+}
+.selectList {
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid goldenrod;
+}
+.listArrow {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 10px);
+}
+
+.selectName {
+    color: #282c34;
+}
+
+.selectNameCollapsed {
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    left: 10px;
+    top: -8px;
+    z-index: 2;
+    background-color: white;
+}
